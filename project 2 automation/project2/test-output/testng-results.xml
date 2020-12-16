@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-16T05:43:49 GMT" name="Default suite" finished-at="2020-12-16T05:45:36 GMT" duration-ms="106704">
+    <groups>
+    </groups>
+    <test started-at="2020-12-16T05:43:49 GMT" name="Default test" finished-at="2020-12-16T05:45:36 GMT" duration-ms="106704">
+      <class name="newMavenProject.project.BasicInputs">
+        <test-method signature="z()[pri:0, instance:newMavenProject.project.BasicInputs@5fbdfdcf]" started-at="2020-12-16T05:43:49 GMT" name="z" finished-at="2020-12-16T05:44:05 GMT" duration-ms="16324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+      </class> <!-- newMavenProject.project.BasicInputs -->
+      <class name="newMavenProject.project.logout">
+        <test-method signature="z()[pri:0, instance:newMavenProject.project.logout@4efc180e]" started-at="2020-12-16T05:44:05 GMT" name="z" finished-at="2020-12-16T05:44:17 GMT" duration-ms="11461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+      </class> <!-- newMavenProject.project.logout -->
+      <class name="newMavenProject.project.ChallengingDom">
+        <test-method signature="z()[pri:0, instance:newMavenProject.project.ChallengingDom@bd4dc25]" started-at="2020-12-16T05:44:17 GMT" name="z" finished-at="2020-12-16T05:44:31 GMT" duration-ms="14597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+      </class> <!-- newMavenProject.project.ChallengingDom -->
+      <class name="newMavenProject.project.login">
+        <test-method signature="z()[pri:0, instance:newMavenProject.project.login@25084a1e]" started-at="2020-12-16T05:44:31 GMT" name="z" finished-at="2020-12-16T05:44:44 GMT" duration-ms="13025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+      </class> <!-- newMavenProject.project.login -->
+      <class name="newMavenProject.project.Checkbox">
+        <test-method signature="z()[pri:0, instance:newMavenProject.project.Checkbox@156b88f5]" started-at="2020-12-16T05:44:44 GMT" name="z" finished-at="2020-12-16T05:45:00 GMT" duration-ms="15675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+      </class> <!-- newMavenProject.project.Checkbox -->
+      <class name="newMavenProject.project.EntryAdvertisement">
+        <test-method signature="z()[pri:0, instance:newMavenProject.project.EntryAdvertisement@3bf9ce3e]" started-at="2020-12-16T05:45:00 GMT" name="z" finished-at="2020-12-16T05:45:18 GMT" duration-ms="17960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+      </class> <!-- newMavenProject.project.EntryAdvertisement -->
+      <class name="newMavenProject.project.JavaScriptAlerts">
+        <test-method signature="z()[pri:0, instance:newMavenProject.project.JavaScriptAlerts@16610890]" started-at="2020-12-16T05:45:18 GMT" name="z" finished-at="2020-12-16T05:45:25 GMT" duration-ms="6730" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-1REI58S', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ALIENW~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7bb7a86627541db44c288327428703d4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-1REI58S', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ALIENW~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:3676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7bb7a86627541db44c288327428703d4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:969)
+at newMavenProject.project.JavaScriptAlerts.z(JavaScriptAlerts.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+      </class> <!-- newMavenProject.project.JavaScriptAlerts -->
+      <class name="newMavenProject.project.MultipleWindows">
+        <test-method signature="z()[pri:0, instance:newMavenProject.project.MultipleWindows@71def8f8]" started-at="2020-12-16T05:45:25 GMT" name="z" finished-at="2020-12-16T05:45:36 GMT" duration-ms="10872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+      </class> <!-- newMavenProject.project.MultipleWindows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
